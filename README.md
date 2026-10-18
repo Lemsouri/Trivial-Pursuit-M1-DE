@@ -230,6 +230,17 @@ Le projet permet de comparer les modèles selon trois dimensions principales :
 
 L'objectif n'est donc pas uniquement de trouver le modèle ayant la meilleure accuracy, mais d'identifier le meilleur compromis entre précision, rapidité et stabilité.
 
+# Résultat :
+| Modèle | Questions | Correct | Incorrect | Accuracy | Temps moyen |
+|---|---|---|---|---|---|
+| gemma3:4b | 5 295 | 3 271 | 2 024 | 61.77% | 3.17s |
+| llama3.2:3b | 5 295 | 3 430 | 1 865 | 64.78% | 2.39s |
+
+LLaMA 3.2 3B est le meilleur modèle sur les trois dimensions :
+Meilleure accuracy (64.78% vs 61.77%)
+Plus rapide (2.39s vs 3.17s)
+Temps médian similaire (2.33s vs 2.40s)
+
 # Perspectives :
 tester davantage de modèles 
 tester plusieurs prompts 
